@@ -1,0 +1,46 @@
+name: Phoebe Askelson
+description: Chemistry PhD Student
+avatar: https://i.imgur.com/EFrT6mw.jpg
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: phoebe@askelson.net
+  facebook:
+  flickr:
+  github: paskelson
+  instagram:
+  linkedin:
+  pinterest:
+  rss: yes
+  twitter:
+  stackoverflow:
+  youtube:
+  googleplus:
+
+
+disqus:
+google_analytics:
+
+url: http://askelson.net
+baseurl: ""
+permalink: /:title/
+
+
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+sass:
+  style: :compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
